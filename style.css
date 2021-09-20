@@ -1,0 +1,101 @@
+body{
+    background: url("./gradient.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1100px;
+    height: 600px;
+    background-color: #601002;
+}
+.principal-texto{
+    width: 436px;
+    height: 100%;
+    background: url("./clave\ de\ sol.jpg");
+    
+}
+
+.principal-titulo{
+    margin-top: 120px;
+    margin-left: 100px;
+    color: #ffe501;
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+}
+.principal-sobre{
+    color: #fcea9d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.principal-imagem{
+    width: 228px;
+    height: 100%;
+    background: none;
+}
+.principal-form{
+    width: 436px;
+    height: 100%;
+    
+}
+
+.cadastro{
+    width: 380px;
+    height: 250px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #de8005;
+    border-radius: 15px;
+}
+
+.nome{
+    margin-top: 30px;
+}
+
+.cadastro input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.botao{
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(248, 235, 182);
+}
+
+.botao:hover{
+    background-color: rgb(200, 0, 0);
+}
+
+.botao:active{
+    background-color: rgb(225, 0, 0);
+    width: 303px;
+    height: 53px;
+}
+
+.guitarra{
+    margin-top: 38px;
+    width: 228px;
+    height: 524px;
+}
+
+
